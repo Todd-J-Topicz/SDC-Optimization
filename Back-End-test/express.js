@@ -10,6 +10,7 @@ const cors = require("cors");
 const { Pool } = require("pg");
 
 const app = express();
+
 const port = 8001;
 app.use(express.json());
 app.use(cors());
@@ -17,6 +18,18 @@ const { listenerCount } = require("stream");
 
 const dbConn = require("./Database/dbcon");
 const pool = dbConn.getPool();
+
+
+app.use(express.json());
+// sets up port to first look for an env file for port number, then defaults to port 8001
+const port = 8002;
+// imports cors for allowing cross origin requests
+const cors = require("cors");
+app.use(
+	cors({
+		origin: "*",
+	})
+);
 
 // imports and mounts body-parser middleware to access contents of request body
 const bodyParser = require("body-parser");
