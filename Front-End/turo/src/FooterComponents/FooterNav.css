@@ -1,0 +1,29 @@
+.FooterNav{
+    width: 100%;
+    border-bottom: 1px solid #E7E7E8;
+
+    padding: 32px;
+}
+
+.FooterNavOptions{
+    display: inline;
+    text-align: left;
+}
+
+.FooterNavOption{
+    color: #121214;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    letter-spacing: 0;
+    margin-left: 10px;
+    
+    line-height: 16px;
+}
+
+.FooterNavOption:hover{
+    cursor: pointer;
+    border-bottom: solid black 2px;
+}
+

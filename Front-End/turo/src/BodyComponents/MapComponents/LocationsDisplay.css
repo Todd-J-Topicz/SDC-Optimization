@@ -1,0 +1,64 @@
+.LocationsDisplayBox{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    top: 30;
+    left: 150px;
+    width: 330px;
+    height: 520px;
+
+    text-align: start;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 15%);
+    padding: 12px 16px;
+}
+
+.pickUpAtCarLocationContainer, .pickUpLocationsContainer, .deliveryContainer{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.pickUpAtCarLocationContainer, .pickUpLocationsContainer{
+    border-bottom: solid rgb(231, 231, 231) 2px;
+}
+
+
+.pickUpAtCarLocationContent, .pickUpLocationsContent, .deliveryContent{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.LocationsHeader{
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
+
+.LocationsName{
+    width: 80%;
+
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-size: 18px;
+}
+
+.LocationCost{
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+
+    font-weight: 900;
+    font-size: 11px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+}
+
+.FreeDeliveryDisclaimer{
+    font-size: 13px;
+}
+
+
+

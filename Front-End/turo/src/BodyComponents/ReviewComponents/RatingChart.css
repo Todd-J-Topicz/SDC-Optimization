@@ -1,0 +1,31 @@
+.rating-chart{
+    display: inline-grid;
+}
+
+.rating-container{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+    
+}
+
+.rating-category {
+    display: flex;
+    width: 130px;
+    /* border: 1px solid red; */
+    justify-content: start;
+}
+
+.rating-bar{
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.rating-value {
+    display: flex;
+    justify-content: center;
+
+    width: 65px;
+}

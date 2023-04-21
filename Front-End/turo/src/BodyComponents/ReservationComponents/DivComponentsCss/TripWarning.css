@@ -1,0 +1,36 @@
+.errorContainer{
+    display: flex;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.errorMessage{
+    margin: 0px;
+    color: rgb(223, 25, 32);
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 16px;
+    text-transform: none;
+    font-size: 12px;
+}
+
+
+.exclamationMark{
+    height: 20px;
+    width: 25px;
+    display: flex;
+    font-size: 12px;
+    color: rgb(223, 25, 32);
+    /* border: solid red 1px; */
+    border-radius: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin: 5px;
+}
+
+.exclamationMark:empty{
+    border: none
+}

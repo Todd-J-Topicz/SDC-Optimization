@@ -1,0 +1,33 @@
+.SocialMediaIconsContainer{ 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+
+    margin-left: 50px;
+}
+
+.SocialMediaIcons{
+    width: 25px;
+    height: fit-content;
+    margin: 12px;
+}
+
+.SocialMediaIcons:hover{
+    cursor: pointer;
+}
+
+.blogIconContainer{
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1px 3px 1px 3px;
+
+    font-size: 11px;
+    margin-left: 12px;
+}
+
+.blogIcon:hover{
+    cursor: pointer;
+    border-bottom: solid black 2px;
+}

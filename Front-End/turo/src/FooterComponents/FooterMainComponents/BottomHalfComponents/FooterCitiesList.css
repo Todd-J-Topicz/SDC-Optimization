@@ -1,0 +1,6 @@
+.citiesList{
+    width: 150%;
+
+    display: flex;
+    justify-content: space-between;
+}

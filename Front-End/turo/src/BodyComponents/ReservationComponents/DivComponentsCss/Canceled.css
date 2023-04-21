@@ -1,0 +1,49 @@
+#thumb{
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+ color: #593CFB;
+ width: 24px;
+ height: 24px;
+ font-family: Arial, Helvetica, sans-serif;
+min-height: auto;
+min-width: auto;
+display: inline;
+margin: 0 10px  ;
+position: relative;
+left: -10px;
+bottom: -7px;
+}
+
+#FreeCancel{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 900;
+line-height: 20px;
+text-align: left;
+word-spacing: 0px;
+color: #121214;
+height: 20px;
+width: 259.984px;
+display: inline;
+
+}
+
+#StartDate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    word-spacing: 0px;
+    color: #898989;
+    height: 16px;
+    width: 259.984px;
+    position: relative;
+    right: -14%;
+}
+
+#rows{
+    display: inline;
+}

@@ -1,0 +1,123 @@
+#icons{
+    display: flex;
+    padding: 5px 0;
+    margin: 10px 0 0 0;
+  
+} 
+
+#fb{
+    border: solid rgb(55, 54, 54);
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 20%;
+    margin-right: 5%;
+}
+
+#twitter{
+    border: solid rgb(55, 54, 54);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 20%;
+    margin-right: 5%;
+
+}
+
+#email{
+    border: solid rgb(55, 54, 54);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin-right: 5%;
+    left: 20%;
+}
+
+#link{
+    border: solid rgb(55, 54, 54);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin-right: 5%;
+    left: 20%;
+}
+
+#fav-container{
+    display: flex;
+    justify-content: center;
+}
+
+#fav{
+    padding: 20px 0 ;
+    cursor: pointer;
+    outline: 1px solid black;
+    width: 95%;
+    height: 10px;
+    text-align: center;
+}
+
+#AddToFav{
+    width: 100%;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #414143;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.heart-icon-text{
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+    font-weight: 700;
+    color: #414143;
+}
+
+.heart-icon-2{
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    position: relative; 
+    padding: 7px ;
+    font-size: 1px;
+    background-color: #ffffff;
+    color: #f9f6f6;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    border-color: black;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+  }

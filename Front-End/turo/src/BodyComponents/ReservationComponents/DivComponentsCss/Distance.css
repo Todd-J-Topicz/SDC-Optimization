@@ -1,0 +1,42 @@
+#distance{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 24px;
+word-spacing: 0px; 
+color: #121214;
+height: 24px;
+width: 246.469px;
+padding: 0 16px 0 0;
+min-height: auto;
+min-width: auto;
+display: inline;
+}
+
+#miles{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 24px;
+word-spacing: 0px;
+color: #121214;
+height: 24px;
+width: 53.5156px;
+min-height: auto;
+min-width: auto;
+display: inline;
+position: relative;
+left: 145px;
+}
+
+#message{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  word-spacing: 0px;
+  color: #898989;
+  height: 16px;
+  width: 299.984px;
+  margin: 4px 0 15px 0;
+  display: block;  
+  left: 1px;
+}

@@ -1,0 +1,51 @@
+.reviews {
+    width: 1010px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.review-container {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.rating{
+    font-size: 38px;
+    display: flex
+}
+
+
+.see-more{
+
+    background-color: #593CFB;
+    height: 34px;
+    width: 101.625px;
+    border: 1px solid #593CFB;
+    color:  #FFFFFF;
+    margin-top: 14px;
+    
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.overall-rating {
+    font-size: 34px;
+    font-weight: 900;
+    height: 44px;
+    width: 87px;
+    text-align: center;
+}
+
+.user-review{
+    display: flex;
+}

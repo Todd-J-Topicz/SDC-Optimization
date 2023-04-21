@@ -1,0 +1,7 @@
+.TopHalfFooter{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}

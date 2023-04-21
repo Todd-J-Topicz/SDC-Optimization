@@ -1,0 +1,81 @@
+#cancel {
+position: relative;
+left: 22%;
+background-color: transparent;
+border: 0;
+text-align: center;
+color: #593cfb;
+font-weight: bolder;
+font-size: large;
+margin-top: 15px;
+}
+
+
+#textbox{
+    height: 35%;
+    width: 95%;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#report{
+position: relative;
+left: 25%;
+background-color: transparent;
+border: 0;
+text-align: center;
+color: #593cfb;
+font-weight: bolder;
+font-size: large;
+}
+
+.circle{
+    color:#593cfb;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#Modal-Title{
+   font-weight: bolder; 
+   font-size: 40px;
+}
+.modalOptions{
+    background-color: transparent;
+    border: 0;
+    margin: 10px;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+}
+#modalCancel{
+    position: relative;
+    left: 67%;
+    border: 0;
+    text-decoration: none;
+}
+#modalReport{
+    position: relative;
+    left: 69%;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h6 {
+    display: inline;
+    font-size: 12px;
+    font-weight: 900;
+    color: #767677;
+    letter-spacing: .5px;
+}
+h5 {display: inline;
+    position: relative;
+    left: 71%;
+    top: 50;
+    font-size: 12px;
+    font-weight: 500;
+    color: #767677;
+    letter-spacing: .5px;
+}

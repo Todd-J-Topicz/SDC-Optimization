@@ -1,0 +1,17 @@
+.ListingDetails{
+    width: 639px;
+    height: fit-content;
+    margin: 10px;
+}
+
+.listingDetailsHeader{
+    margin: 0;
+    color: #121214;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+}

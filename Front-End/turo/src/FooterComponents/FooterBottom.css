@@ -1,0 +1,21 @@
+.FooterBottomList{
+    display: flex;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.clickableOptions{
+    display: flex;
+
+}
+
+.clickableOption, .copyright{
+    margin-left: 30px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-size: 12px;
+}
+
+.clickableOption:hover{
+    cursor: pointer;
+    border-bottom: solid black 2px;
+}

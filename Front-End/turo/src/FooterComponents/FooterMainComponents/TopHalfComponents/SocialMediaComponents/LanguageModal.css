@@ -1,0 +1,39 @@
+.flags{
+    height: 35px;
+    width: fit-content;
+
+    margin: 10px;
+}
+
+.FlagLanguageSelection{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.FlagLanguageSelection:hover{
+    background-color: #a19c9d54;
+    cursor: pointer;
+}
+
+.LanguageModal{
+    display: block;
+}
+
+.optionContainer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.checkmark-show{
+    display: flex;
+    height: 15px;
+    width: fit-content;
+
+    justify-self: right;
+}
+
+.checkmark-off{
+    display: none;
+}

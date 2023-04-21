@@ -1,0 +1,139 @@
+.HostDetailsContainer{
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.listingHostsHeader{
+    font-size: 15px;
+}
+
+.HostOverallInfo{
+    display: flex;
+}
+
+.HostOverallRating{
+    width:fit-content;
+    font-size: 20px;
+
+    padding: 2px 12px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
+}
+
+.HostStats{
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+.HostIcon{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+
+    margin-right: 10px;
+
+    border-radius: 40px;
+
+    background-image: url("https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg");
+    background-size: 80px;
+}
+
+.respondStatement{
+    margin: 0;
+    color: #898989;
+    margin-bottom: 0;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-transform: none;
+}
+
+.hostAll-StarBadge{
+    height: 15px;
+    width: 15px;
+
+    margin-right: 5px;
+}
+
+.HostOverallRatingValue{
+    font-size: 17px;
+}
+
+.hostStarImage{
+    height: 17px;
+    width: fit-content;
+
+    margin-left: 5px;
+}
+
+.dot {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.HostRatingBadge{
+    display: flex;
+
+    margin: 10px;
+}
+
+.HostCertifications{
+    display: flex;
+    margin: 10px 10px 50px 10px;
+}
+
+.DescriptionAndButton{
+    display: grid;
+    margin-left: 10px;
+}
+
+.learnMoreButton{
+    color: #593CFB;
+    font-weight: bold;
+}
+
+.learnMoreButton:hover{
+    cursor: pointer;
+}
+
+.badgeIcon{
+    height: 50px;
+    width: 50px;
+
+    margin: 5px;
+}
+
+.hostName{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ModalOn{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+}
+
+.ModalOff{
+    display: none;
+}
+

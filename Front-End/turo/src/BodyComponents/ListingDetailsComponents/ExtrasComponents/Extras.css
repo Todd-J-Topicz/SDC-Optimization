@@ -1,0 +1,129 @@
+.ExtrasDisclaimerContainer{
+    display: flex;
+}
+
+.ExtrasDisclaimer, .extraDescription{
+    color: #121214;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-transform: none;
+}
+
+.ExtrasDisclaimer{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.extrasQuestionMark{
+    display: flex;
+
+    margin-top: 2px;
+    margin-left: 8px;
+    height: 15px;
+    width: fit-content;
+}
+
+.extrasQuestionMark:hover{
+    cursor: pointer;
+}
+
+.extraContainer{
+    display: grid;
+
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6E6;
+    padding-right: 20px;
+}
+
+.extraTitle{
+    margin: 0;
+    color: #121214;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-transform: none;
+}
+
+.extraCostAvailable{
+    display: flex;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.extraNumberAvailable{
+    margin: 0;
+    color: #898989;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-transform: none;
+}
+
+.displayOff{display: none;}
+
+.MinimizedExtrasContainer{
+    height: 120px;
+    overflow: hidden;
+    background: linear-gradient(0deg, white, rgba(255, 255, 255, 0));
+
+    --mask: linear-gradient(to bottom, 
+    rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 40%, 
+    rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+}
+
+.ExtrasMoreButton{
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 900;
+    outline: none;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    font-size: 13px;
+    height: 26px;
+    line-height: 25px;
+    padding: 0px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(65, 65, 67);
+    color: rgb(65, 65, 67);
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.ModalOn{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+}
+
+.ModalOff{
+    display: none;
+}
+

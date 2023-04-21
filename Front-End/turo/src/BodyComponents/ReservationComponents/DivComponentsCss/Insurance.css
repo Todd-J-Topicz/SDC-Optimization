@@ -1,0 +1,45 @@
+#in-pro{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 900;
+letter-spacing: .5px;
+line-height: 16px;
+text-decoration: none solid rgb(118, 118, 119);
+word-spacing: 0px;
+color: #767677;
+height: 16px;
+width: 299.984px;
+margin: 0 0 8px 0; 
+display: block; 
+}
+
+#insurance{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(18, 18, 20);
+    word-spacing: 0px;
+    color: #121214;
+    height: 24px;
+    width: 299.984px;
+    display: block;
+}
+
+#questionMark{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: 16px;
+    position: relative;
+    top: -5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.insuranceContainer{
+    margin-bottom: 20px;
+}

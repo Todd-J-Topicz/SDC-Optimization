@@ -1,0 +1,24 @@
+.listingCarStatsContainer{
+    display: flex;
+}
+
+.column{
+    width: 100%;
+}
+
+.listingStatContainer{
+    width: 100%;
+
+    padding: 10px;
+}
+
+.listingStatIcon{
+    display: inline;
+    width: 11%;
+    height: fit-content;
+}
+
+.listingStatValue{
+    display: inline;
+}
+

@@ -1,0 +1,42 @@
+.listingOverallName{
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.carListingTitle{
+    font-size: 45px;
+    font-weight: 700;
+
+    margin: 0;
+}
+
+
+.carListingName{
+    display: flex;
+
+    color: rgb(185, 177, 177);
+    font-size: 18px;
+}
+
+.listingOverallRating{
+    margin: 0;
+
+    color: #121214;
+    font-size: 21px;
+    font-weight: 900;
+
+    letter-spacing: -0.2px;
+    line-height: 28px;
+}
+
+.TripAndRatingStats{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.listingOverallTrips{
+    margin-left: 10px;
+}

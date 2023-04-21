@@ -1,0 +1,49 @@
+
+  .sticky-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Make header white */
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgb(231, 231, 232); /* Add border to the bottom with 2px thickness and black color */
+    }
+
+  .header__search input {
+    border: none;
+    border-bottom: 1px solid rgb(35, 31, 32);
+    outline: none; /*removes the border on focus */
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px; 
+    margin-bottom: 20px;
+    width: 300px;
+  } 
+  
+  .header__logo {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px; /* change to desired width */
+    height: 50px; /* change to desired height */
+    cursor: pointer;
+  }
+  
+  .header__nav button {
+    border: none;
+    position: absolute;
+    right: 0;
+    width: 70px; /* change to desired width */
+    height: 50px; /* change to desired height */
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px; /* add border radius to create rounded edges */
+  }
+  
+  .header__nav button:hover {
+    background-color: #CCCCCC; /* Change the background color to grey when hovering over the button */
+  }
+

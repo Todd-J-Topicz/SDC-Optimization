@@ -1,0 +1,15 @@
+#Line {
+    font-size: 16px;   
+    line-height: 24px;
+    text-decoration: none solid rgb(35, 31, 32);
+    background-color: #000000; 
+    color: #231f20;
+    height: 1px;
+    opacity: 10%;
+    width: 100%;
+    margin: 8px 0 20px 0;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
