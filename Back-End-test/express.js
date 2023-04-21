@@ -1,35 +1,23 @@
+"use strict";
+
+const dotenv = require("dotenv");
+dotenv.config();
+console.log(process.env);
+
+//SETUP DEPENDECIES:
+const express = require("express");
+const cors = require("cors");
 const { Pool } = require("pg");
 
-const pool = new Pool({
-	user: "postgres",
-	host: "postgres-db-turo",
-	database: "Turo_webpage",
-	password: "password",
-	port: 5432,
-});
-
-// pool.connect((err, client, release) => {
-//     if (err) {
-//       return console.error('Error acquiring client', err.stack)
-//     }
-//     console.log(process.env.DATABASE_URL)
-//     console.log('Connected to database')
-//   })
-
-// imports express
-const express = require("express");
-// creates an express application
 const app = express();
-app.use(express.json());
-// sets up port to first look for an env file for port number, then defaults to port 8001
 const port = 8001;
-// imports cors for allowing cross origin requests
-const cors = require("cors");
-app.use(
-	cors({
-		origin: "*",
-	})
-);
+app.use(express.json());
+app.use(cors());
+const { listenerCount } = require("stream");
+
+const dbConn = require("./Database/dbcon");
+const pool = dbConn.getPool();
+
 // imports and mounts body-parser middleware to access contents of request body
 const bodyParser = require("body-parser");
 const { error } = require("console");

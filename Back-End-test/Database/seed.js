@@ -12,7 +12,7 @@ pool.connect((err, client, release) => {
 
 console.log("Running SQL seed...");
 
-const seedQuery = fs.readFileSync("./seed.sql", { encoding: "utf8" });
+const seedQuery = fs.readFileSync("./Database/seed.sql", { encoding: "utf8" });
 
 pool.query(seedQuery, (err, res) => {
 	if (err) console.log(err);

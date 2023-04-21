@@ -12,7 +12,9 @@ pool.connect((err, client, release) => {
 
 console.log("Running SQL migrate...");
 
-const migrateQuery = fs.readFileSync("./migrate.sql", { encoding: "utf8" });
+const migrateQuery = fs.readFileSync("./Database/migrate.sql", {
+	encoding: "utf8",
+});
 
 pool.query(migrateQuery, (err, res) => {
 	if (err) console.log(err);
