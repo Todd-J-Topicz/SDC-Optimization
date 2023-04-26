@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node express1.js",
-    "dev": "nodemon express1.js",
+    "start": "node express.js",
+    "dev": "nodemon express.js",
     "seed": "node ./Database/seed.js",
     "migrate": "node ./Database/migrate.js"
   },

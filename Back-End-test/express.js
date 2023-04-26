@@ -2,7 +2,6 @@
 
 const dotenv = require("dotenv");
 dotenv.config();
-console.log(process.env);
 
 //SETUP DEPENDECIES:
 const express = require("express");
@@ -65,7 +64,7 @@ app.get("/car/:id", async (req, res) => {
 			"SELECT cars.*, hosts.* FROM cars JOIN hosts ON cars.host_id = hosts.id WHERE cars.id = $1",
 			[id]
 		);
-
+		console.log(res);
 		res.json(car.rows);
 	} catch (err) {
 		res.status(404).send("Not Found");
