@@ -8,5 +8,6 @@ RUN npm install
 
 
 COPY . . 
-EXPOSE 8002
-CMD [ "nodemon", "express.js"]
+EXPOSE 8100
+EXPOSE 6379
+CMD [ "nodemon", "express1.js"]

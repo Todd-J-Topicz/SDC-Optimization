@@ -1,18 +1,38 @@
 version: '3'
 
 services:
-  express-services:
-    container_name: SDC-Turo
+  # express-services:
+  #   container_name: SDC-Turo
 
-    build: .
+  #   build: .
 
-    volumes: 
-      - ./:/app:Z
+  #   volumes: 
+  #     - ./:/app:Z
 
+  #   ports:
+  #     - "8100:8100"
+
+  #   command: ["node", "express.js"]
+
+  k6:
+    image: loadimpact/k6
+    volumes:
+      - ./tests:/tests
+    command: ["run", "/tests/test.js"]
+#   command: run --vus 10 --duration 30s /path/to/script.js
+
+  redis:
+    container_name: SDC-redis
+    image: redis/redis-stack:latest
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
     ports:
-      - "8002:8002"
-
-    command: ["node", "express.js"]
+      - 6379:6379
+    restart: always
+    entrypoint: redis-server --appendonly yes
+  
 
   SDC-postgres-db-turo:
       container_name: SDC-postgres-db-turo
@@ -30,6 +50,7 @@ services:
           # copy the sql script to create tables
             - ./Database/migrate.sql:/docker-entrypoint-initdb.d/migrate.sql
             - ./Database/seed.sql:/docker-entrypoint-initdb.d/seed.sql
+      links: k6
 
 
   # pgadmin:
