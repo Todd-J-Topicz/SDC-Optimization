@@ -29,7 +29,7 @@ services:
   #     - ALLOW_EMPTY_PASSWORD=yes
   #     - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
   #   ports:
-  #     - 6379:6379
+  #     - 8001:6379
   #   restart: always
   #   entrypoint: redis-server --appendonly yes
   

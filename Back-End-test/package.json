@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node express.js",
-    "dev": "nodemon express.js",
+    "dev": "nodemon expressCompression.js",
     "seed": "node ./Database/seed.js",
     "migrate": "node ./Database/migrate.js"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "16.0.3",
     "express": "^4.18.2",

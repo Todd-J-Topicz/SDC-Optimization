@@ -10,4 +10,5 @@ RUN npm install
 COPY . . 
 EXPOSE 8100
 EXPOSE 6379
-CMD [ "nodemon", "express.js"]
+EXPOSE 8001
+CMD [ "nodemon", "expressCompression.js"]
